@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="mine/SF.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SERVICE</a></li>
+                    <li><a href="blog.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Services</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Services We Offer</h1>
+        <p></p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Architectural Design</h3>
+                <p> We provide creative and innovative design solutions for all types of buildings, from residential to commercial and industrial. 
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Interior Fit-outs</h3>
+                <p>Our team of experts offers personalized interior design solutions to make your space functional and aesthetically pleasing. </p>
+            </div>
+            <div class="course-col">
+                <h3>Urban Planning</h3>
+                <p> We specialize in creating sustainable and livable urban environments by offering professional planning services. </p>
+            </div>
+            <div class="course-col">
+                <h3>Feasibility Studies</h3>
+                <p>We conduct thorough feasibility studies to assess the viability of your project, including site analysis, financial analysis, and risk assessment. </p>
+            </div>
+        </section>
+            <section class="course">
+            <div class="row">
+            <div class="course-col">
+                <h3>3D Visualization and Rendering</h3>
+                <p>Our 3D visualization and rendering services enable you to visualize your project before it is built, allowing you to make informed decisions. </p>
+            </div>
+            <div class="course-col">
+                <h3>Building Information and Modelling (BIM)</h3>
+                <p> We use the latest BIM software to create detailed 3D models of your building, allowing for better collaboration and coordination between all stakeholders.</p>
+            </div>
+            <div class="course-col">
+                <h3>Scale Modelling</h3>
+                <p>We create accurate and detailed scale models of your building to help you visualize your project in a tangible way. </p>
+            </div>
+            <div class="course-col">
+                <h3>Consultation</h3>
+                <p>Our team of experts provides professional consulting services to ensure that your project meets all regulatory requirements and is completed on time and within budget.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Design Competitions</h1>
+        <p>The group has emerged victorious in the Projeto and Hudyaka design competitions in the year 2023</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="mine/hm1.jpg">
+                    <h3>Hamugaway</h3>
+                    <p> </p>
+                </div>
+                <div class="facility-col">
+                    <img src="mine/hm2.jpg">
+                    <h3>Hamugaway</h3>
+                    <p></p>
+                </div>
+                <div class="facility-col">
+                    <img src="mine/hp1.jpg">
+                    <h3>HomePlus</h3>
+                    <p>
+                       </p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Your Space. Your Legacy. Our Expertise.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made by studiofourma</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
